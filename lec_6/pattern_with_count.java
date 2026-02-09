@@ -1,5 +1,5 @@
 package lec_6;
-public class no_pattern {
+public class pattern_with_count {
     public static void main(String[] args) {
         int n =5;
 
@@ -14,9 +14,11 @@ public class no_pattern {
                 i++;
             }
             int j=1;
+            int count=1;
             while (j<=star) {
-                System.out.print(row);
+                System.out.print(count);
                 j++;
+                count++;
             }
             row++;
             star=star+2;
@@ -31,7 +33,7 @@ public class no_pattern {
 
 
 //     1
-//    222
-//   33333
-//  4444444
-// 555555555
+//    123
+//   12345
+//  1234567
+// 123456789

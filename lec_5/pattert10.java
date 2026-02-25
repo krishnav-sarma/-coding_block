@@ -32,3 +32,35 @@ public class pattert10 {
         }
     }
 }
+
+
+// package lec_5;
+// import java.util.Scanner;
+
+// public class pattert10 {
+//     public static void main(String[] args) {
+
+//         Scanner k = new Scanner(System.in);
+//         int n = k.nextInt();
+
+//         for (int row = 1; row <= n; row++) {
+
+//             // spaces
+//             for (int i = 1; i <= n - row; i++) {
+//                 System.out.print("  ");
+//             }
+
+//             // symbols
+//             for (int j = 1; j <= (2 * row - 1); j++) {
+//                 if (j % 2 == 1) {
+//                     System.out.print(" * ");
+//                 } else {
+//                     System.out.print(" ! ");
+//                 }
+//             }
+
+//             System.out.println();
+//         }
+//     }
+// }
+
